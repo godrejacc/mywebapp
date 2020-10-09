@@ -1,0 +1,47 @@
+body{
+			background-color: gray;
+			color: yellow;
+			font-size: xx-large;
+		}
+
+div{
+			font-style: italic;
+			font-weight: 200;
+			color: lightblue;
+	}
+#container1{
+	background-color: red;
+}
+.container2{
+	border: 2pt;
+	text-decoration: underline;
+	border-style: solid;
+	border-width: thick;
+	color:black;
+}
+/* descendant
+nav  a{
+	font-size: xx-large;
+	font-style: italic;
+	color: yellow;
+}*/
+/* child selector
+nav>a{
+	font-size: xx-large;
+	font-style: italic;
+	color: yellow;
+}*/
+/* Sibiling Style : adjacent elements : immediately followed
+nav tag immediately followed by a
+*/
+/*nav + a{
+	font-size: xx-large;
+	font-style: italic;
+	color: yellow;
+}*/
+/* all the sibblings : nav tag followed by a all*/
+nav ~ a{
+	font-size: xx-large;
+	font-style: italic;
+	color: yellow;
+}

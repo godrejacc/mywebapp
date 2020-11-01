@@ -1,0 +1,60 @@
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 ~ (master)
+$ cd /c/demos/
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos
+$ pwd
+/c/demos
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos
+$ mkdir gitdemos
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos
+$ cd gitdemos
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos/gitdemos
+$ pwd
+/c/demos/gitdemos
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos/gitdemos
+$ git config --global user.name "gitikab@yahoo.co.in"
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos/gitdemos
+$ git config --global user.email "gitikab@yahoo.co.in"
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos/gitdemos
+$ git remote
+fatal: not a git repository (or any of the parent directories): .git
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos/gitdemos
+$ mkdir mywebapprepo
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos/gitdemos
+$ cd mywebapprepo/
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos/gitdemos/mywebapprepo
+$ git clone https://github.com/godrejacc/mywebapp.git
+Cloning into 'mywebapp'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 9 (delta 0), reused 6 (delta 0), pack-reused 0
+Unpacking objects: 100% (9/9), done.
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos/gitdemos/mywebapprepo
+$ dir
+mywebapp
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos/gitdemos/mywebapprepo
+$ cd mywebapp/
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos/gitdemos/mywebapprepo/mywebapp (main)
+$ dir
+demo1style.css  demo2style.css  HelloWorld.txt
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos/gitdemos/mywebapprepo/mywebapp (main)
+$ edit
+bash: edit: command not found
+
+gitika.p.talsania@P5LAP-136BST2 MINGW64 /c/demos/gitdemos/mywebapprepo/mywebapp (main)
+$
